@@ -1,0 +1,59 @@
+*{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    
+    
+}
+
+main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+h2{
+    opacity: 0.7;
+    white-space: nowrap;
+   
+}
+
+.section{
+    
+    margin: 50px;
+}
+
+textarea{
+    margin-top: 7px;
+    opacity: 0.6;
+    color: black;
+    font-weight: 980;
+    font-family: sans-serif;
+   
+}
+#copiar{
+    background-image: url("assets/2.png");
+    background-repeat: no-repeat;
+    width: 290px;
+    height: 390px;
+    font-size: 15px;
+}
+#codificar{
+    background-image: url("assets/1.png");
+    background-repeat: no-repeat;
+    width: 229px;
+    height: 390px;
+    font-size: 15px;
+}
+
+button{
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+}
+button:hover{
+    background-color: darkblue;
+    color: white;
+}
